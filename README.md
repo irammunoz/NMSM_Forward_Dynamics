@@ -9,3 +9,5 @@ For condition I, the results obtained between the proposed framework (using the 
 
 - Simulation_I.m: A forward upper-limb NMSM is driven only by excitation signals with no external wrench applied
 - Simulation_II.m: A forward upper-limb NMSM is driven only by excitation signals with a time-varying external wrench applied on the wrist
+
+> **Note:** The file OpenSim_Sim/arm22_test.cpp was used to generate the muscle analysis in OpenSim.
