@@ -1,9 +1,11 @@
 # NMSM_Forward_Dynamics
 Neuromusculoskeletal Forward Dynamics Framework with Continuous Muscle Wrapping
 
-## Publish a File
+## Simulations
 
-You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
+A simple but representative neuromusculoskeletal model (NMSM)  was simulated under two conditions: (I) without an external wrench applied to the upper-limb and (II) with a time-varying external wrench applied on the wrist due to the interaction with a robot.
 
-- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
+For condition I, the results obtained between the proposed framework (using the methodology presented in Section III) and OpenSim (Muscle Analysis Tool) are compared.
+
+- Simulation_I.m: A forward upper-limb NMSM is driven only by excitation signals with no external wrench applied
+- Simulation_II.m: A forward upper-limb NMSM is driven only by excitation signals with a time-varying external wrench applied on the wrist
