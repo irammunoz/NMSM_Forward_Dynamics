@@ -11,3 +11,4 @@ For condition I, the results obtained between the proposed framework (using the 
 - Simulation_II.m: A forward upper-limb NMSM is driven only by excitation signals with a time-varying external wrench applied on the wrist
 
 > **Note:** The file OpenSim_Sim/arm22_test.cpp was used to generate the muscle analysis in OpenSim.
+> The NMSM can be found in spatial_v2/models/arm22_model.m for use in Matlab, and in OpenSim_Sim/arm22_dG.osim for use in OpenSim.
