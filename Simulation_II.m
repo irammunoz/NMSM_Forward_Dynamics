@@ -61,7 +61,7 @@ y_R = ode4_rob(rr_robot_a22,@FDcrb,@controller,ti,ts,tf,y0_r);
 
 %% Integrate the system
 wrap_flag = 1; % 1: Solve the system using the SGW method
-y_BM = ode4_NMSM(model,@FDcrb_NMSM_fe,@excitation_signal,wrap_0,ti,ts,tf,y0,wrap_flag,y_R(9:14,:));
+y_BM = ode4_NMSM_fe(model,@FDcrb_NMSM_fe,@excitation_signal,wrap_0,ti,ts,tf,y0,wrap_flag,y_R(9:14,:));
 
 %%
 Plot_Results_II;

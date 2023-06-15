@@ -57,13 +57,13 @@ y0 = [q_0; qd_0; a_0; lnM_0; wrk_0];
 
 %% Integrate the system
 wrap_flag = 0; % 0: Solve the system using the Obstacle-Set method
-[y_OS, wp_OS] = ode4_NMSM(model,@FDcrb_NMSM,@excitation_signal,wrap_0,ti,ts,tf,y0,wrap_flag,fe);
+[y_OS, wp_OS] = ode4_NMSM(model,@FDcrb_NMSM,@excitation_signal,wrap_0,ti,ts,tf,y0,wrap_flag);
 
 wrap_flag = 1; % 1: Solve the system using the SGW method
-y_BM = ode4_NMSM(model,@FDcrb_NMSM,@excitation_signal,wrap_0,ti,ts,tf,y0,wrap_flag,fe);
+y_BM = ode4_NMSM(model,@FDcrb_NMSM,@excitation_signal,wrap_0,ti,ts,tf,y0,wrap_flag);
 
 %% Generate Plots
-load('Simulation_I_Results.mat');
+% load('Simulation_I_Results.mat');
 
 Load_OpenSim_Results;
 Plot_Results_I;
