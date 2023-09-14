@@ -14,4 +14,4 @@ For condition I, the results obtained between the proposed framework (using the 
 > The NMSM can be found in spatial_v2/models/arm22_model.m for use in Matlab, and in OpenSim_Sim/arm22_dG.osim for use in OpenSim.
 
 **Equation (13) should read as follows**
-$$x = 0$$
+$$ x = 0 $$
