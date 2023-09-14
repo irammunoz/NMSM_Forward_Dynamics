@@ -14,4 +14,5 @@ For condition I, the results obtained between the proposed framework (using the 
 > The NMSM can be found in spatial_v2/models/arm22_model.m for use in Matlab, and in OpenSim_Sim/arm22_dG.osim for use in OpenSim.
 
 **Equation (13) should read as follows**
+![Errata_Eq13](https://github.com/irammunoz/NMSM_Forward_Dynamics/assets/136425272/9994402b-030b-41fd-b8fd-1f0e92b263d2)
 
